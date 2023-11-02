@@ -1,16 +1,15 @@
 .promo {
-    position: relative;
-    height: 800px;
-    &::before { 
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background-image: url('../../img/Set\ Of\ Fruits\ And\ Vegetables\ Doodle\ Vector\ Design\,\ Vegetables\ Drawing\,\ Doodle\ Drawing\,\ Vegetables\ Sketch\ PNG\ and\ Vector\ with\ Transparent\ Background\ for\ Free\ Download.jpeg');
-        background-position: center;
-        opacity: 0.03;
-        // z-index: -1;
-    }
+  position: relative;
+  height: 800px;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../../img/Set\ Of\ Fruits\ And\ Vegetables\ Doodle\ Vector\ Design\,\ Vegetables\ Drawing\,\ Doodle\ Drawing\,\ Vegetables\ Sketch\ PNG\ and\ Vector\ with\ Transparent\ Background\ for\ Free\ Download.jpeg');
+    background-position: center;
+    opacity: 0.03;
+  }
 }
